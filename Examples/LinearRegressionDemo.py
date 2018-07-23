@@ -1,6 +1,6 @@
 import numpy as np
 from Algos.RegressionsAlgo import LinearRegresssionAlgo
-
+from matplotlib import pyplot
 
 
 #demo data x and y coordinates
@@ -11,3 +11,14 @@ m ,b  = LinearRegresssionAlgo.slop_and_intercept(xs,ys)
 
 print ("slop = " , m , " y-intercept = " , b)
 
+regression_line = [b + (m * x) for x in xs]
+
+#graph it to understand it clearly
+pyplot.scatter(xs,ys)
+
+#prediction point
+prdX = 15 # x =15
+prdY = m * prdX + b
+pyplot.scatter(prdX,prdY , color="green")
+pyplot.plot(xs,regression_line)
+pyplot.show()
