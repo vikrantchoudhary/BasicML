@@ -10,10 +10,10 @@ Basic Algo and test cases or Example for ML with Python.
 
 # Algorithms covered
 
-## Linear Regression
-## Logistic Regression
-## Least square Regression
+* Linear Regression
+* Logistic Regression
+* Least square Regression
 
-## k-nearest neighbours 
-## support vector machines
+* k-nearest neighbours 
+* support vector machines
 
