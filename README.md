@@ -12,7 +12,7 @@ Basic Algo and test cases or Example for ML with Python.
 
 ###############################
 * Linear Regression
-* Logistic Regression
+* Logistic Regression (classification algo)
 * Least square Regression
 
 ###############################
